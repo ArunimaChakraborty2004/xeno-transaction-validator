@@ -1,0 +1,13 @@
+order_id,customer_name,phone,email,order_date,payment_mode,product_name,quantity,amount,country
+ORD-001,Arjun Mehta,9876543210,arjun@example.com,2024-03-15,UPI,Wireless Earbuds,1,2499.00,India
+ORD-002,Priya Sharma,9123456789,priya.sharma@mail.com,15-03-2024,Card,Smart Watch,1,8999.00,India
+ORD-003,Wei Lin,87654321,wei.lin@email.sg,15/03/2024,Wallet,Fitness Band,2,1598.00,Singapore
+ORD-004,Rahul Verma,998877665,rahul@invalid,2024-13-40,Cash,USB Cable,3,599.00,India
+ORD-005,Anita Desai,9876543210,anita@example.com,2024-03-16,UPI,Phone Case,1,799.00,India
+ORD-006,John Smith,5551234567,john.smith@corp.com,03-16-2024,Net Banking,Laptop Stand,1,3499.00,United States
+ORD-007,Meera Patel,,meera@example.com,2024-03-17,UPI,Screen Guard,2,398.00,India
+ORD-008,Suresh Kumar,9123456789,suresh@mail.com,2024-03-17,PayPal,Power Bank,1,1299.00,India
+ORD-009,,,,,,,,,
+ORD-010,Kavya Nair,8765432109,kavya@example.com,2024-03-18,UPI,Bluetooth Speaker,1,2199.00,India
+ORD-010,Kavya Nair,8765432109,kavya@example.com,2024-03-18,UPI,Bluetooth Speaker,1,2199.00,India
+ORD-012,Dev Singh,9876543210,dev@example.com,2024-03-19,Card,Keyboard,1,not-a-number,India
