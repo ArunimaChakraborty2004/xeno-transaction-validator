@@ -151,6 +151,9 @@ def render_rules_editor() -> RulesDict:
         if st.button("Reset defaults", width='stretch', key="rules_reset"):
             st.session_state.validation_rules = get_default_rules()
             st.session_state.rules_version += 1
+            for widget_key in ["rules_country_name", "rules_phone_digits", "rules_payment_modes", "rules_chunk_size"]:
+                if widget_key in st.session_state:
+                    del st.session_state[widget_key]
             st.rerun()
 
     new_rules = normalize_rules(
